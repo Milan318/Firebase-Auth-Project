@@ -1,0 +1,65 @@
+/* Smooth gradient background */
+.form-page {
+  height: 100vh;
+  background-color: rgb(30, 30, 30) !important;
+  padding: 2rem;
+}
+
+/* Glass-effect card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 1.25rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid #d1d1d1;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Custom Form label */
+.form-label-custom {
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+/* Rounded input fields */
+.form-control-custom {
+  border-radius: 0.75rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  transition: 0.3s ease;
+}
+.form-control-custom:focus {
+  border-color: #17a2b8;
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+}
+
+.form-control-custom::placeholder{
+  color: rgb(117, 117, 117) !important;
+}
+
+/* Stylish Submit Button */
+.btn-glass {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-glass:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0, 114, 255, 0.3);
+}
+
+/* Cancel button */
+.btn-cancel {
+  border-radius: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  color: #555;
+  border: 1px solid #aaa;
+}
+.btn-cancel:hover {
+  background-color: #eee;
+}

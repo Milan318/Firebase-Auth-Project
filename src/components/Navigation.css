@@ -1,0 +1,33 @@
+
+body{
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #e43f22, #2a5298);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Brand Text */
+.nav-brand-text {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff !important;
+  letter-spacing: 0.5px;
+}
+
+/* Link style */
+.nav-link-custom {
+  color: #e0f7fa !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.75rem;
+}
+
+.nav-link-custom:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+  color: #fff !important;
+}

@@ -1,0 +1,27 @@
+
+.table-card {
+  background: #ffffffee;
+  border-radius: 1rem;
+  border: 1px solid #e0e0e0;
+  backdrop-filter: blur(8px);
+}
+.employee-table thead {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.employee-table tbody tr:hover {
+  background-color: #f1faff;
+  transition: background 0.3s ease-in-out;
+}
+.action-btn {
+  border-radius: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.action-btn:hover {
+  transform: scale(1.05);
+}
