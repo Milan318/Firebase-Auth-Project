@@ -20,10 +20,10 @@ export default function Navigation() {
             {user && (
               <>
                 <Nav.Link as={Link} to="/" className="nav-link-custom">
-                  📋 Employee Data
+                  Employee Data
                 </Nav.Link>
                 <Nav.Link as={Link} to="/add" className="nav-link-custom">
-                  ➕ Add Employee
+                  Add Employee
                 </Nav.Link>
                 <Button
                   variant="outline-light"
@@ -31,7 +31,7 @@ export default function Navigation() {
                   className="ms-3"
                   onClick={() => auth.signOut()}
                 >
-                  🔒Logout
+                 Logout
                 </Button>
               </>
             )}

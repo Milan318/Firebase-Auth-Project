@@ -56,8 +56,7 @@ export default function SignIn() {
             />
           </Form.Group>
           <Button type="submit" className="w-100 mb-2">Sign In</Button>
-          <p className='text-center'>-----------------  OR  -----------------</p>
-          <Button variant="outline-danger" className="w-100 mb-2" onClick={handleGoogleLogin}>
+          <Button variant="outline-danger" className="w-100 mt-3" onClick={handleGoogleLogin}>
             Sign in with Google
           </Button>
           <Button
