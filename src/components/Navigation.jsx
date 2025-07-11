@@ -11,7 +11,7 @@ export default function Navigation() {
     <Navbar expand="lg" className="custom-navbar shadow-sm py-3">
       <Container>
         <Navbar.Brand as={Link} to="/" className="nav-brand-text">
-          <i className="bi bi-person-badge-fill me-2"></i>Management-System
+          <i className="bi bi-person-badge-fill me-2"></i>Sign-In
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="main-navbar" />
@@ -36,7 +36,7 @@ export default function Navigation() {
               </>
             )}
 
-            {!user && (
+            {/* {!user && (
               <>
                 <Nav.Link as={Link} to="/signin" className="nav-link-custom">
                   🔑 Sign In
@@ -45,7 +45,7 @@ export default function Navigation() {
                   📝 Sign Up
                 </Nav.Link>
               </>
-            )}
+            )} */}
           </Nav>
         </Navbar.Collapse>
       </Container>

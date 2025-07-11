@@ -18,16 +18,16 @@ export default function EmployeeTable() {
   return (
     <Container>
       <Card className="table-card shadow-lg p-4 mt-4">
-        <h2 className="mb-4 text-center text-primary fw-bold">👥 Employee Data</h2>
+        <h2 className="mb-4 text-center text-primary fw-bold">Employee Data</h2>
         <Table responsive bordered hover className="employee-table">
           <thead>
             <tr>
               <th>#</th>
-              <th>👤 Name</th>
-              <th>📧 Email</th>
-              <th>🛠️ Role</th>
-              <th>💰 Salary</th>
-              <th>⚙️ Actions</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Salary</th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -37,9 +37,7 @@ export default function EmployeeTable() {
                 <td>{emp.name}</td>
                 <td>{emp.email}</td>
                 <td>
-                  <Badge bg="secondary" className="px-2 py-1 text-uppercase">
-                    {emp.role}
-                  </Badge>
+                  {emp.role}
                 </td>
                 <td>₹{emp.salary}</td>
                 <td>
@@ -51,7 +49,7 @@ export default function EmployeeTable() {
                       size="sm"
                       className="action-btn"
                     >
-                      ✏️
+                      Edit
                     </Button>
                     <Button
                       variant="outline-danger"
@@ -59,7 +57,7 @@ export default function EmployeeTable() {
                       className="action-btn"
                       onClick={() => dispatch(deleteEmployee(emp.id))}
                     >
-                      🗑️
+                      Delete
                     </Button>
                   </div>
                 </td>

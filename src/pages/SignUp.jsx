@@ -23,7 +23,7 @@ export default function SignUp() {
 
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
-      <Card className="p-4 shadow" style={{ width: '100%', maxWidth: '400px',backgroundColor : "transparent",color:"white",border:"1px solid #a3a3a3"  }}>
+      <Card className="p-4 shadow" style={{ width: '100%', maxWidth: '400px'}}>
         <h4 className="mb-3 text-center">Create Account</h4>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3">

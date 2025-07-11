@@ -34,9 +34,9 @@ export default function EmployeeForm() {
 
  return (
   <div className="form-page d-flex justify-content-center align-items-center">
-    <Card className="glass-card shadow-lg p-4" style={{backgroundColor : "transparent",color:"white",border:"1px solid #a3a3a3"}}>
+    <Card className="glass-card shadow-lg p-4">
       <h3 className="text-center mb-4 fw-bold text-primary">
-        {id ? '✏️ Update' : '➕ Add'} Employee
+        Employee Data
       </h3>
 
       <Form onSubmit={handleSubmit} >
